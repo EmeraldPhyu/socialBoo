@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3AC48343A5A5680B941AEF50 /* Pods_SocialBoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */; };
 		CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */; };
-		CBD7B4B41F29ACE000BEBE1B /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B31F29ACE000BEBE1B /* loginVC.swift */; };
+		CBD7B4B41F29ACE000BEBE1B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */; };
 		CBD7B4B71F29ACE000BEBE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4B51F29ACE000BEBE1B /* Main.storyboard */; };
 		CBD7B4B91F29ACE000BEBE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4B81F29ACE000BEBE1B /* Assets.xcassets */; };
 		CBD7B4BC1F29ACE000BEBE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4BA1F29ACE000BEBE1B /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		B6028381F05ED630C1A47158 /* Pods-SocialBoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD7B4AE1F29ACE000BEBE1B /* SocialBoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialBoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBD7B4B31F29ACE000BEBE1B /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CBD7B4B61F29ACE000BEBE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBD7B4B81F29ACE000BEBE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBD7B4BB1F29ACE000BEBE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		CB3925BF1F2B273D00BF7519 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CBD7B4B31F29ACE000BEBE1B /* loginVC.swift */,
+				CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD7B4B41F29ACE000BEBE1B /* loginVC.swift in Sources */,
+				CBD7B4B41F29ACE000BEBE1B /* LoginVC.swift in Sources */,
 				CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
