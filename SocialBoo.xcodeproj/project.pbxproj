@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC48343A5A5680B941AEF50 /* Pods_SocialBoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */; };
+		CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */; };
+		CBD7B4B41F29ACE000BEBE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B31F29ACE000BEBE1B /* ViewController.swift */; };
+		CBD7B4B71F29ACE000BEBE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4B51F29ACE000BEBE1B /* Main.storyboard */; };
+		CBD7B4B91F29ACE000BEBE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4B81F29ACE000BEBE1B /* Assets.xcassets */; };
+		CBD7B4BC1F29ACE000BEBE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4BA1F29ACE000BEBE1B /* LaunchScreen.storyboard */; };
+		CBD7B4C41F29C3E600BEBE1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4C31F29C3E600BEBE1B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialBoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03DC4A4CB2764116752DCF6 /* Pods-SocialBoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo.release.xcconfig"; sourceTree = "<group>"; };
+		B6028381F05ED630C1A47158 /* Pods-SocialBoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD7B4AE1F29ACE000BEBE1B /* SocialBoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialBoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD7B4B31F29ACE000BEBE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBD7B4B61F29ACE000BEBE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD7B4B81F29ACE000BEBE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD7B4BB1F29ACE000BEBE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD7B4BD1F29ACE000BEBE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD7B4C31F29C3E600BEBE1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBD7B4C61F29D0E300BEBE1B /* SocialBoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialBoo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD7B4AB1F29ACE000BEBE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC48343A5A5680B941AEF50 /* Pods_SocialBoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4B667C42C74CD8F80E3F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD7B4A51F29ACE000BEBE1B = {
+			isa = PBXGroup;
+			children = (
+				CBD7B4B01F29ACE000BEBE1B /* SocialBoo */,
+				CBD7B4AF1F29ACE000BEBE1B /* Products */,
+				DD2C0D3D6A91FC7EE843CA89 /* Pods */,
+				AE4B667C42C74CD8F80E3F43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD7B4AF1F29ACE000BEBE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7B4AE1F29ACE000BEBE1B /* SocialBoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD7B4B01F29ACE000BEBE1B /* SocialBoo */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7B4C61F29D0E300BEBE1B /* SocialBoo.entitlements */,
+				CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */,
+				CBD7B4B31F29ACE000BEBE1B /* ViewController.swift */,
+				CBD7B4B51F29ACE000BEBE1B /* Main.storyboard */,
+				CBD7B4B81F29ACE000BEBE1B /* Assets.xcassets */,
+				CBD7B4BA1F29ACE000BEBE1B /* LaunchScreen.storyboard */,
+				CBD7B4BD1F29ACE000BEBE1B /* Info.plist */,
+				CBD7B4C31F29C3E600BEBE1B /* GoogleService-Info.plist */,
+			);
+			path = SocialBoo;
+			sourceTree = "<group>";
+		};
+		DD2C0D3D6A91FC7EE843CA89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6028381F05ED630C1A47158 /* Pods-SocialBoo.debug.xcconfig */,
+				A03DC4A4CB2764116752DCF6 /* Pods-SocialBoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD7B4AD1F29ACE000BEBE1B /* SocialBoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD7B4C01F29ACE000BEBE1B /* Build configuration list for PBXNativeTarget "SocialBoo" */;
+			buildPhases = (
+				44439968E052F7D4E7D70123 /* [CP] Check Pods Manifest.lock */,
+				CBD7B4AA1F29ACE000BEBE1B /* Sources */,
+				CBD7B4AB1F29ACE000BEBE1B /* Frameworks */,
+				CBD7B4AC1F29ACE000BEBE1B /* Resources */,
+				CB1127E797660ED8A92DEE58 /* [CP] Embed Pods Frameworks */,
+				4F5205115DEAE299C1B9F142 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialBoo;
+			productName = SocialBoo;
+			productReference = CBD7B4AE1F29ACE000BEBE1B /* SocialBoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD7B4A61F29ACE000BEBE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MTG;
+				TargetAttributes = {
+					CBD7B4AD1F29ACE000BEBE1B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = AU236QCNYR;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CBD7B4A91F29ACE000BEBE1B /* Build configuration list for PBXProject "SocialBoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD7B4A51F29ACE000BEBE1B;
+			productRefGroup = CBD7B4AF1F29ACE000BEBE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD7B4AD1F29ACE000BEBE1B /* SocialBoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD7B4AC1F29ACE000BEBE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7B4BC1F29ACE000BEBE1B /* LaunchScreen.storyboard in Resources */,
+				CBD7B4C41F29C3E600BEBE1B /* GoogleService-Info.plist in Resources */,
+				CBD7B4B91F29ACE000BEBE1B /* Assets.xcassets in Resources */,
+				CBD7B4B71F29ACE000BEBE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44439968E052F7D4E7D70123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5205115DEAE299C1B9F142 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1127E797660ED8A92DEE58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD7B4AA1F29ACE000BEBE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7B4B41F29ACE000BEBE1B /* ViewController.swift in Sources */,
+				CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBD7B4B51F29ACE000BEBE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD7B4B61F29ACE000BEBE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD7B4BA1F29ACE000BEBE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD7B4BB1F29ACE000BEBE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD7B4BE1F29ACE000BEBE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD7B4BF1F29ACE000BEBE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD7B4C11F29ACE000BEBE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6028381F05ED630C1A47158 /* Pods-SocialBoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialBoo/SocialBoo.entitlements;
+				DEVELOPMENT_TEAM = AU236QCNYR;
+				INFOPLIST_FILE = SocialBoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MTGA.SocialBoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBD7B4C21F29ACE000BEBE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03DC4A4CB2764116752DCF6 /* Pods-SocialBoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialBoo/SocialBoo.entitlements;
+				DEVELOPMENT_TEAM = AU236QCNYR;
+				INFOPLIST_FILE = SocialBoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MTGA.SocialBoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD7B4A91F29ACE000BEBE1B /* Build configuration list for PBXProject "SocialBoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD7B4BE1F29ACE000BEBE1B /* Debug */,
+				CBD7B4BF1F29ACE000BEBE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD7B4C01F29ACE000BEBE1B /* Build configuration list for PBXNativeTarget "SocialBoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD7B4C11F29ACE000BEBE1B /* Debug */,
+				CBD7B4C21F29ACE000BEBE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD7B4A61F29ACE000BEBE1B /* Project object */;
+}
