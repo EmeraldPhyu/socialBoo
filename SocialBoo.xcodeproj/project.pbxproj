@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3AC48343A5A5680B941AEF50 /* Pods_SocialBoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */; };
+		CB4BC8901F2CB8FE00D60D26 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4BC88C1F2CB8FE00D60D26 /* Bolts.framework */; };
+		CB4BC8911F2CB8FE00D60D26 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4BC88D1F2CB8FE00D60D26 /* FBSDKCoreKit.framework */; };
+		CB4BC8921F2CB8FE00D60D26 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4BC88E1F2CB8FE00D60D26 /* FBSDKLoginKit.framework */; };
+		CB4BC8931F2CB8FE00D60D26 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4BC88F1F2CB8FE00D60D26 /* SwiftKeychainWrapper.framework */; };
+		CBAFBB251F2CF29300C37E46 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFBB241F2CF29300C37E46 /* PostCell.swift */; };
+		CBAFBB271F2CF6B100C37E46 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFBB261F2CF6B100C37E46 /* Post.swift */; };
+		CBAFBB2A1F2CF81000C37E46 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFBB291F2CF81000C37E46 /* DataService.swift */; };
+		CBB4CDD11F2CEAA800BACC53 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDD01F2CEAA800BACC53 /* FeedVC.swift */; };
+		CBB4CDD31F2CED0500BACC53 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDD21F2CED0500BACC53 /* FancyField.swift */; };
+		CBB4CDD51F2CED5200BACC53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDD41F2CED5200BACC53 /* Constants.swift */; };
+		CBB4CDD81F2CEDB900BACC53 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDD71F2CEDB900BACC53 /* FancyBtn.swift */; };
+		CBB4CDDA1F2CEEA600BACC53 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDD91F2CEEA600BACC53 /* CircleView.swift */; };
+		CBB4CDDC1F2CEF0700BACC53 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDDB1F2CEF0700BACC53 /* FancyView.swift */; };
+		CBB4CDDE1F2CEF6800BACC53 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4CDDD1F2CEF6800BACC53 /* RoundBtn.swift */; };
 		CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */; };
 		CBD7B4B41F29ACE000BEBE1B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */; };
 		CBD7B4B71F29ACE000BEBE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD7B4B51F29ACE000BEBE1B /* Main.storyboard */; };
@@ -20,6 +34,27 @@
 		4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialBoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03DC4A4CB2764116752DCF6 /* Pods-SocialBoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo.release.xcconfig"; sourceTree = "<group>"; };
 		B6028381F05ED630C1A47158 /* Pods-SocialBoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialBoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialBoo/Pods-SocialBoo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3925C21F2C92C800BF7519 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Pods/../build/Release-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CB3925C41F2C92D300BF7519 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Pods/../build/Release-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		CB3925C61F2C92D900BF7519 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = "Pods/../build/Release-iphoneos/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"; sourceTree = "<group>"; };
+		CB3925C81F2C968B00BF7519 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework"; sourceTree = "<group>"; };
+		CB3925C91F2C968B00BF7519 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework"; sourceTree = "<group>"; };
+		CB3925CA1F2C968B00BF7519 /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = "Pods/../build/Debug-iphoneos/FacebookShare/FacebookShare.framework"; sourceTree = "<group>"; };
+		CB4BC88C1F2CB8FE00D60D26 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		CB4BC88D1F2CB8FE00D60D26 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CB4BC88E1F2CB8FE00D60D26 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		CB4BC88F1F2CB8FE00D60D26 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = "../../Developer/Xcode/DerivedData/SocialBoo-epyjhfzjqmlsighdetcrckgpjfsl/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"; sourceTree = "<group>"; };
+		CBAFBB241F2CF29300C37E46 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CBAFBB261F2CF6B100C37E46 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CBAFBB291F2CF81000C37E46 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CBB4CDCF1F2CE88C00BACC53 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		CBB4CDD01F2CEAA800BACC53 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		CBB4CDD21F2CED0500BACC53 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		CBB4CDD41F2CED5200BACC53 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CBB4CDD71F2CEDB900BACC53 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		CBB4CDD91F2CEEA600BACC53 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		CBB4CDDB1F2CEF0700BACC53 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		CBB4CDDD1F2CEF6800BACC53 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		CBD7B4AE1F29ACE000BEBE1B /* SocialBoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialBoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD7B4B11F29ACE000BEBE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -36,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4BC8901F2CB8FE00D60D26 /* Bolts.framework in Frameworks */,
+				CB4BC8911F2CB8FE00D60D26 /* FBSDKCoreKit.framework in Frameworks */,
+				CB4BC8921F2CB8FE00D60D26 /* FBSDKLoginKit.framework in Frameworks */,
+				CB4BC8931F2CB8FE00D60D26 /* SwiftKeychainWrapper.framework in Frameworks */,
 				3AC48343A5A5680B941AEF50 /* Pods_SocialBoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +85,16 @@
 		AE4B667C42C74CD8F80E3F43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB4BC88C1F2CB8FE00D60D26 /* Bolts.framework */,
+				CB4BC88D1F2CB8FE00D60D26 /* FBSDKCoreKit.framework */,
+				CB4BC88E1F2CB8FE00D60D26 /* FBSDKLoginKit.framework */,
+				CB4BC88F1F2CB8FE00D60D26 /* SwiftKeychainWrapper.framework */,
+				CB3925C81F2C968B00BF7519 /* FacebookCore.framework */,
+				CB3925C91F2C968B00BF7519 /* FacebookLogin.framework */,
+				CB3925CA1F2C968B00BF7519 /* FacebookShare.framework */,
+				CB3925C61F2C92D900BF7519 /* SwiftKeychainWrapper.framework */,
+				CB3925C41F2C92D300BF7519 /* FBSDKLoginKit.framework */,
+				CB3925C21F2C92C800BF7519 /* FBSDKCoreKit.framework */,
 				4E4258850227EEFF020D4FCE /* Pods_SocialBoo.framework */,
 			);
 			name = Frameworks;
@@ -55,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CBD7B4B31F29ACE000BEBE1B /* LoginVC.swift */,
+				CBB4CDD01F2CEAA800BACC53 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -62,6 +112,7 @@
 		CB3925C01F2B274800BF7519 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBAFBB261F2CF6B100C37E46 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -69,13 +120,36 @@
 		CB3925C11F2B274E00BF7519 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CBB4CDD21F2CED0500BACC53 /* FancyField.swift */,
+				CBB4CDD71F2CEDB900BACC53 /* FancyBtn.swift */,
+				CBB4CDD91F2CEEA600BACC53 /* CircleView.swift */,
+				CBB4CDDB1F2CEF0700BACC53 /* FancyView.swift */,
+				CBB4CDDD1F2CEF6800BACC53 /* RoundBtn.swift */,
+				CBAFBB241F2CF29300C37E46 /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		CBAFBB281F2CF7FC00C37E46 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBAFBB291F2CF81000C37E46 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CBB4CDD61F2CED5800BACC53 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CBB4CDD41F2CED5200BACC53 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		CBD7B4A51F29ACE000BEBE1B = {
 			isa = PBXGroup;
 			children = (
+				CBB4CDCF1F2CE88C00BACC53 /* Bridging-Header.h */,
 				CBD7B4B01F29ACE000BEBE1B /* SocialBoo */,
 				CBD7B4AF1F29ACE000BEBE1B /* Products */,
 				DD2C0D3D6A91FC7EE843CA89 /* Pods */,
@@ -94,6 +168,8 @@
 		CBD7B4B01F29ACE000BEBE1B /* SocialBoo */ = {
 			isa = PBXGroup;
 			children = (
+				CBAFBB281F2CF7FC00C37E46 /* Services */,
+				CBB4CDD61F2CED5800BACC53 /* Util */,
 				CB3925C11F2B274E00BF7519 /* View */,
 				CB3925C01F2B274800BF7519 /* Model */,
 				CB3925BF1F2B273D00BF7519 /* Controller */,
@@ -247,8 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB4CDD81F2CEDB900BACC53 /* FancyBtn.swift in Sources */,
+				CBAFBB271F2CF6B100C37E46 /* Post.swift in Sources */,
+				CBB4CDD51F2CED5200BACC53 /* Constants.swift in Sources */,
+				CBAFBB2A1F2CF81000C37E46 /* DataService.swift in Sources */,
+				CBB4CDD31F2CED0500BACC53 /* FancyField.swift in Sources */,
+				CBB4CDD11F2CEAA800BACC53 /* FeedVC.swift in Sources */,
 				CBD7B4B41F29ACE000BEBE1B /* LoginVC.swift in Sources */,
+				CBB4CDDA1F2CEEA600BACC53 /* CircleView.swift in Sources */,
+				CBB4CDDE1F2CEF6800BACC53 /* RoundBtn.swift in Sources */,
+				CBB4CDDC1F2CEF0700BACC53 /* FancyView.swift in Sources */,
 				CBD7B4B21F29ACE000BEBE1B /* AppDelegate.swift in Sources */,
+				CBAFBB251F2CF29300C37E46 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +462,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SocialBoo/SocialBoo.entitlements;
 				DEVELOPMENT_TEAM = AU236QCNYR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FBSDKCoreKit",
+					"$(PROJECT_DIR)/Pods/FBSDKLoginKit",
+					"$(PROJECT_DIR)/Pods/SwiftKeychainWrapper",
+					"$(PROJECT_DIR)/Pods/FacebookShare",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SocialBoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MTGA.SocialBoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -391,10 +486,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SocialBoo/SocialBoo.entitlements;
 				DEVELOPMENT_TEAM = AU236QCNYR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SocialBoo/FBSDKCoreKit",
+					"$(PROJECT_DIR)/SocialBoo/FBSDKLoginKit",
+					"$(PROJECT_DIR)/SocialBoo/SwiftKeychainWrapper",
+					"$(PROJECT_DIR)/SocaialBoo/FacebookShare",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/FBSDKCoreKit",
+					"$(PROJECT_DIR)/build/Release-iphoneos/FBSDKLoginKit",
+					"$(PROJECT_DIR)/build/Release-iphoneos/SwiftKeychainWrapper",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FacebookShare",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SocialBoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MTGA.SocialBoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

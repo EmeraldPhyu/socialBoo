@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="daW-Kr-Z1I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="daW-Kr-Z1I">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <!--LoginVC-->
         <scene sceneID="J7P-M9-b2o">
             <objects>
-                <viewController id="daW-Kr-Z1I" userLabel="LoginVC" customClass="SignInVC" customModule="SocialBoo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="daW-Kr-Z1I" userLabel="LoginVC" customClass="LoginVC" customModule="SocialBoo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xUW-VU-wjh"/>
                         <viewControllerLayoutGuide type="bottom" id="fzF-gR-ArY"/>
@@ -25,8 +25,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBi-eC-yQu" customClass="FancyView" customModule="SocialBoo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="devslopes-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Zg1-HX-hdE">
-                                        <rect key="frame" x="-536" y="-763" width="1381" height="2138"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="devslopes-logo" highlightedImage="devslopes-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Zg1-HX-hdE" customClass="CircleView" customModule="devslopes_social">
+                                        <rect key="frame" x="0.0" y="8" width="375" height="155"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -74,6 +74,7 @@
                                 <state key="normal" image="f"/>
                                 <connections>
                                     <action selector="facebookBtnTapped:" destination="daW-Kr-Z1I" eventType="touchUpInside" id="qJh-7Z-Ywd"/>
+                                    <action selector="fbBtnTapped:" destination="daW-Kr-Z1I" eventType="touchUpInside" id="oJg-eb-WOJ"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="c7z-pA-iqh">
@@ -99,7 +100,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="signInTapped:" destination="daW-Kr-Z1I" eventType="touchUpInside" id="7bj-9i-rnP"/>
+                                            <action selector="signInTapped:" destination="daW-Kr-Z1I" eventType="touchUpInside" id="Uyb-L7-kGr"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -125,8 +126,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="S2C-Nv-hVp" id="g4x-Sf-GkR"/>
-                        <outlet property="pwdField" destination="EBX-Gg-xJY" id="6nw-R3-xqg"/>
+                        <outlet property="emailField" destination="S2C-Nv-hVp" id="SjY-BW-yy4"/>
+                        <outlet property="pwdField" destination="EBX-Gg-xJY" id="8X0-ea-QQD"/>
                         <segue destination="VZu-Zb-UnH" kind="show" identifier="goToFeed" id="qcf-tK-6Ly"/>
                     </connections>
                 </viewController>
@@ -137,7 +138,7 @@
         <!--FeedVC-->
         <scene sceneID="yvu-LH-BXG">
             <objects>
-                <viewController id="VZu-Zb-UnH" customClass="FeedVC" customModule="devslopes_social" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VZu-Zb-UnH" customClass="FeedVC" customModule="SocialBoo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CAA-K5-3kc"/>
                         <viewControllerLayoutGuide type="bottom" id="RVE-IG-JuG"/>
@@ -146,7 +147,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPQ-Ff-CDa" customClass="FancyView" customModule="devslopes_social" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPQ-Ff-CDa" customClass="FancyView" customModule="SocialBoo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="bDT-LG-SE7">
@@ -157,7 +158,7 @@
                                             <constraint firstAttribute="height" constant="38" id="FQM-ow-eci"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="AW7-RF-0XO" appends="YES" id="Ukv-6D-Bb5"/>
+                                            <outletCollection property="gestureRecognizers" destination="x8v-k4-vyb" appends="YES" id="Mic-wz-1w9"/>
                                         </connections>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBW-7w-xhy">
@@ -176,13 +177,13 @@
                                     <constraint firstItem="bDT-LG-SE7" firstAttribute="leading" secondItem="ZPQ-Ff-CDa" secondAttribute="leading" constant="16" id="jZb-IB-4zh"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w6Y-Uf-CYN" customClass="FancyView" customModule="devslopes_social" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w6Y-Uf-CYN" customClass="FancyView" customModule="SocialBoo" customModuleProvider="target">
                                 <rect key="frame" x="16" y="81" width="343" height="65"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UAR-f9-PhS">
                                         <rect key="frame" x="8" y="8" width="327" height="49"/>
                                         <subviews>
-                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-N8-Ef1" customClass="CircleView" customModule="devslopes_social" customModuleProvider="target">
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-N8-Ef1" customClass="CircleView" customModule="SocialBoo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="49" height="49"/>
                                                 <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <gestureRecognizers/>
@@ -191,15 +192,15 @@
                                                     <constraint firstAttribute="width" constant="49" id="qGe-Mc-WYq"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="gls-fD-Tzg" appends="YES" id="luq-p7-4mn"/>
+                                                    <outletCollection property="gestureRecognizers" destination="Juz-tl-Sc0" appends="YES" id="X34-vU-aJY"/>
                                                 </connections>
                                             </imageView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Vh-yP-9AA" customClass="FancyField" customModule="devslopes_social" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Vh-yP-9AA" customClass="FancyField" customModule="SocialBoo" customModuleProvider="target">
                                                 <rect key="frame" x="59" y="0.0" width="209" height="49"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhs-cM-Yur" customClass="RoundBtn" customModule="devslopes_social" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhs-cM-Yur" customClass="RoundBtn" customModule="SocialBoo" customModuleProvider="target">
                                                 <rect key="frame" x="278" y="0.0" width="49" height="49"/>
                                                 <color key="backgroundColor" red="0.86666666670000003" green="0.17254901959999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -208,7 +209,7 @@
                                                 </constraints>
                                                 <state key="normal" image="add-post"/>
                                                 <connections>
-                                                    <action selector="postBtnTapped:" destination="VZu-Zb-UnH" eventType="touchUpInside" id="tKu-Ok-9UA"/>
+                                                    <action selector="postBtnTapped:" destination="VZu-Zb-UnH" eventType="touchUpInside" id="DLv-yw-al3"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -227,14 +228,14 @@
                                 <rect key="frame" x="0.0" y="154" width="375" height="513"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="339" id="jgY-be-lYQ" customClass="PostCell" customModule="devslopes_social" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="339" id="jgY-be-lYQ" customClass="PostCell" customModule="SocialBoo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="339"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jgY-be-lYQ" id="ElQ-zm-Y1E">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="339"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fre-Wc-V8v" customClass="FancyView" customModule="devslopes_social" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fre-Wc-V8v" customClass="FancyView" customModule="SocialBoo" customModuleProvider="target">
                                                     <rect key="frame" x="16" y="8" width="343" height="323"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="c0Q-b1-fKR">
@@ -243,7 +244,7 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Naa-0u-GUy">
                                                                     <rect key="frame" x="0.0" y="0.0" width="327" height="60"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-jX-5Ie" customClass="CircleView" customModule="devslopes_social" customModuleProvider="target">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-jX-5Ie" customClass="CircleView" customModule="SocialBoo" customModuleProvider="target">
                                                                             <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="60" id="Dne-WC-I2y"/>
@@ -318,12 +319,12 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="caption" destination="HX1-of-CgA" id="OaB-EP-gFY"/>
-                                            <outlet property="likeImg" destination="HAs-SE-Pbc" id="yks-h2-hce"/>
-                                            <outlet property="likesLbl" destination="78A-cr-NKd" id="BAd-v8-8xb"/>
-                                            <outlet property="postImg" destination="If3-EU-Oad" id="Zb9-Zo-2bY"/>
-                                            <outlet property="profileImg" destination="g8q-jX-5Ie" id="awL-2C-hGa"/>
-                                            <outlet property="usernameLbl" destination="IGY-77-8nm" id="ptT-Lg-xl3"/>
+                                            <outlet property="caption" destination="HX1-of-CgA" id="LQg-qg-5q9"/>
+                                            <outlet property="likeImg" destination="HAs-SE-Pbc" id="I1A-mK-fbb"/>
+                                            <outlet property="likesLbl" destination="78A-cr-NKd" id="xd9-zM-D0y"/>
+                                            <outlet property="postImg" destination="If3-EU-Oad" id="lZC-9J-ars"/>
+                                            <outlet property="profileImg" destination="g8q-jX-5Ie" id="wRm-nS-zvm"/>
+                                            <outlet property="usernameLbl" destination="IGY-77-8nm" id="1Rf-Dj-Mpp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -344,20 +345,21 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="captionField" destination="6Vh-yP-9AA" id="eXf-e6-jaE"/>
-                        <outlet property="imageAdd" destination="GRb-N8-Ef1" id="X38-XM-vXS"/>
-                        <outlet property="tableView" destination="5t5-fk-of7" id="Iob-nh-bY6"/>
+                        <outlet property="captionField" destination="6Vh-yP-9AA" id="UIQ-Vb-FLj"/>
+                        <outlet property="imageAdd" destination="GRb-N8-Ef1" id="Yds-6m-yhO"/>
+                        <outlet property="tableView" destination="5t5-fk-of7" id="JWI-d0-VPi"/>
+                        <segue destination="daW-Kr-Z1I" kind="show" identifier="goToLogin" id="Etw-N9-4cS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xa0-Hn-heX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="AW7-RF-0XO">
+                <tapGestureRecognizer id="Juz-tl-Sc0">
                     <connections>
-                        <action selector="signOutTapped:" destination="VZu-Zb-UnH" id="D03-9N-QCo"/>
+                        <action selector="addImageTapped:" destination="VZu-Zb-UnH" id="Or0-fT-nbu"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="gls-fD-Tzg">
+                <tapGestureRecognizer id="x8v-k4-vyb">
                     <connections>
-                        <action selector="addImageTapped:" destination="VZu-Zb-UnH" id="h5i-gY-Mq9"/>
+                        <action selector="logOutTapped:" destination="VZu-Zb-UnH" id="EA8-vL-ks0"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -371,7 +373,7 @@
         <image name="empty-heart" width="70" height="70"/>
         <image name="f" width="352" height="328"/>
         <image name="placeholder" width="567" height="312"/>
-        <image name="profile" width="16" height="16"/>
+        <image name="profile" width="113" height="155"/>
         <image name="sign-out" width="92" height="65"/>
     </resources>
 </document>
